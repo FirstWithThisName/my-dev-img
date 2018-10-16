@@ -14,7 +14,7 @@ RUN apt-get install git build-essential -y
 RUN apt-get install umbrello pluma -y
 
 # latex
-# RUN apt-get install texlive-full -y
+RUN apt-get install texlive-full -y
 
 # install netbeans
 RUN apt-get install netbeans -y
